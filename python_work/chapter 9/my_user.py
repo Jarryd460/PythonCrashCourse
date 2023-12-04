@@ -1,0 +1,20 @@
+from user import User
+
+user_1 = User("Jarryd", "Deane", 31, "Software Engineer")
+user_2 = User("Jane", "Doe", 43, "Dentist")
+
+print()
+user_1.increment_login_attempts()
+user_1.describe_user()
+user_1.greet_user()
+user_1.reset_login_attempts()
+print()
+user_1.describe_user()
+print()
+user_2.increment_login_attempts()
+user_2.increment_login_attempts()
+user_2.describe_user()
+user_2.greet_user()
+print()
+user_2.reset_login_attempts()
+user_2.describe_user()
