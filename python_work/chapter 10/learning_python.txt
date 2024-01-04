@@ -1,0 +1,5 @@
+In Python you can declare variables and store values in those variables
+In Python you can create functions which contain common logic
+In Python you can create classes that contain variables and functions to group them
+In Python you can ask and get input from a user
+In Python you can read the contents of files
