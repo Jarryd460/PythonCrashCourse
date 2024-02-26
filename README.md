@@ -15,3 +15,6 @@ Learning the fundamentals in Python
         * Create database migration for models: "python manage.py makemigrations learning_logs".
         * Run migration: "python manage.py migrate".
     * Setup superuser: run "python manage.py createsuperuser" and follow prompts.
+    * To clear all data in database including users, you can run "python manage.py flush".
+    * To start a shell run "python manage.py shell".
+        * You can run code in the shell to test various things including querying the database.
