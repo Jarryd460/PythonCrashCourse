@@ -25,9 +25,9 @@ SECRET_KEY = 'django-insecure-13d!qo(t8v4u6y$=gn%hbfjsqmka74^u4h#bf5%jph)tds01l8
 # SECURITY WARNING: don't run with debug turned on in production!
 # When set to True, it exposes stack trace and other information that can be used 
 # to hack the application and server
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["localhost"]
 
 
 # Application definition
@@ -64,7 +64,7 @@ ROOT_URLCONF = 'll_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
