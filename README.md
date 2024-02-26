@@ -18,3 +18,4 @@ Learning the fundamentals in Python
     * To clear all data in database including users, you can run "python manage.py flush".
     * To start a shell run "python manage.py shell".
         * You can run code in the shell to test various things including querying the database.
+    * To create a requirements.txt file with all the current dependencies installed, you can run "pip freeze > requirements.txt"
